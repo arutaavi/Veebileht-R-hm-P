@@ -1,7 +1,6 @@
-body {
-    background-color: rgb(240, 232, 232);
-    
-  }
+body { 
+    background: url(/img/cream_dust.png) repeat 0 0;
+}
   body {
     margin: 0;
     margin-top: 50px;
@@ -34,8 +33,7 @@ header li {
 }
 
 section {
-    height: 100vh;
-    display: flex;
+    height: 80vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -78,6 +76,11 @@ header a {
 }
 #jalus {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://previews.123rf.com/images/xeniadesign/xeniadesign1802/xeniadesign180200017/94591861-abstract-tech-design-background-engineering-technology-wallpaper-made-with-lines-dots-circles-futuri.jpg);
+}
+
+.icon:before {
+    content: attr(data-icon);
+    /* Insert your fancy colours here */
 }
 
 
