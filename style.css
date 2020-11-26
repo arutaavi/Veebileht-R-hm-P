@@ -18,6 +18,10 @@ header {
     line-height: 50px;
     background-color: rgba(201, 183, 183, 0.055);
 }
+#pildu {
+    text-align: center;
+    text-decoration: aquamarine;
+}
 
 header * {
     display: inline;
@@ -43,23 +47,47 @@ section {
     width: 300px;
     border-radius: 50%; 
 }
-
-footer {
-    text-align: center;
-    padding: 50px;
+#webblog .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
+#virtualcocktailparty .profile-img {
+    width: 350px;
+    border-radius: 35%; 
 }
 
+#pildu {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darksalmon;
+}
+#kokteilipidu {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darksalmon;
+}
+
+#reisimine {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darksalmon;
+}
+#lauamängud {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darksalmon;
+}
 
 #hero h1 {
     font-size: 3em;
-}
-
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 1.5em;
 }
 
 header a {
@@ -77,14 +105,24 @@ header a {
 #jalus {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://previews.123rf.com/images/xeniadesign/xeniadesign1802/xeniadesign180200017/94591861-abstract-tech-design-background-engineering-technology-wallpaper-made-with-lines-dots-circles-futuri.jpg);
 }
+#pildu {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://i.pinimg.com/originals/75/74/3e/75743e5344964457f1af4b451cd66ceb.jpg);
+} 
 
-.icon:before {
-    content: attr(data-icon);
-    /* Insert your fancy colours here */
+#kokteilipidu {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://thumbs.dreamstime.com/b/colored-artistic-beckground-brigth-background-grunge-art-eagle-colored-artistic-beckground-grunge-art-eagle-166165768.jpg);
+}
+#reisimine {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://sharoncummings.files.wordpress.com/2015/05/screenshot-2015-04-17-18-47-13.png);
+}
+#lauamängud {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://www.artefactgroup.com/wp-content/uploads/2020/01/dungeons.jpg);
 }
 
 
-.column {
+
+
+#about .column {
     border: 5px solid rgb(104, 84, 84);
     background-color: aliceblue;
     margin: 10px;
@@ -96,7 +134,14 @@ header a {
 
 }
 
-.row {
+#webblog .row {
+  display: flex;
+}
+
+#webblog .column {
+  flex: 50%;
+}
+#about .row {
   content: "";
   display: table;
   clear: both;
