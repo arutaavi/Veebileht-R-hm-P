@@ -37,7 +37,7 @@ header li {
 }
 
 section {
-    height: 80vh;
+    padding-top: 2cm;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -55,7 +55,23 @@ section {
     width: 350px;
     border-radius: 35%; 
 }
+#covid-19 .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
 
+#quarantine .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
+#safety .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
+#pilt {
+    width: 1000px;
+    border-radius: 35%; 
+}
 #pildu {
     height: 400px;
     line-height: 400px;
@@ -145,4 +161,23 @@ header a {
   content: "";
   display: table;
   clear: both;
+}
+#covid-19 .row {
+  display: flex;
+}
+#covid-19 .column {
+  flex: 50%;
+}
+
+#quarantine .row {
+  display: flex;
+}
+#quarantine .column {
+  flex: 50%;
+}
+#safety .row {
+  display: flex;
+}
+#safety .column {
+  flex: 50%;
 }
