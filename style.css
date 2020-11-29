@@ -54,6 +54,14 @@ section {
     width: 350px;
     border-radius: 35%; 
 }
+#virtualtraveling .profile-img {
+    width: 800px;
+    border-radius: 50%; 
+}
+#tripping .profile-img {
+    width: 600px;
+    border-radius: 35%; 
+}
 #virtualcocktailparty .profile-img {
     width: 350px;
     border-radius: 35%; 
@@ -183,6 +191,13 @@ header a {
 
 #webblog .column {
   flex: 50%;
+}
+#tripping .row {
+    display: flex;
+}
+  
+#tripping .column {
+    flex: 50%;
 }
 #about .row {
   content: "";
