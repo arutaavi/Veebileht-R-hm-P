@@ -85,7 +85,14 @@ section {
     width: 350px;
     border-radius: 35%; 
 }
-
+#meie .profile-img {
+    width: 350px;
+    border-radius: 50%; 
+}
+#infected .profile-img {
+    width: 350px;
+    border-radius: 50%; 
+}
 #statistic .profile-img {
     display: block;
     margin-left: auto;
@@ -192,8 +199,13 @@ header a {
 #webblog .row {
   display: flex;
 }
-
 #webblog .column {
+  flex: 50%;
+}
+#meie .row {
+  display: flex;
+} 
+#meie .column {
   flex: 50%;
 }
 #tripping .row {
