@@ -66,6 +66,10 @@ section {
     width: 350px;
     border-radius: 35%; 
 }
+#books .profile-img {
+    width: 500px;
+    border-radius: 35%; 
+}
 #covid-19 .profile-img {
     width: 350px;
     border-radius: 35%; 
