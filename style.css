@@ -18,6 +18,32 @@ header {
     line-height: 50px;
     background-color: rgba(201, 183, 183, 0.055);
 }
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 15px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: larger;
+}
+#quarantine ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    line-height: 1.6;
+    margin: 0 auto; 
+}
+#safety ul {
+    list-style-type: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    line-height: 1.6;
+    text-align: left; 
+}
 #pildu {
     text-align: center;
     text-decoration: aquamarine;
@@ -63,8 +89,8 @@ section {
     border-radius: 35%; 
 }
 #virtualcocktailparty .profile-img {
-    width: 350px;
-    border-radius: 35%; 
+    width: 500px;
+    border-radius: 35%;
 }
 #books .profile-img {
     width: 500px;
@@ -238,4 +264,10 @@ header a {
 }
 #safety .column {
   flex: 50%;
+}
+#virtualcocktailparty .row {
+    display: flex;
+}
+#virtualcocktailparty .column {
+    flex: 50%;
 }
