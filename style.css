@@ -214,12 +214,10 @@ header a {
     border: 5px solid rgb(104, 84, 84);
     background-color: aliceblue;
     margin: 10px;
-    float: left;
+    float: right;
     width: 33.33%;
     align-self: center;
     margin-left: 125px
-    
-
 }
 
 #webblog .row {
