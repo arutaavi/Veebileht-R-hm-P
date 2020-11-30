@@ -1,0 +1,14 @@
+#infected .profile-img {
+    width: 350px;
+    border-radius: 50%; 
+}
+#meie .profile-img {
+    width: 350px;
+    border-radius: 50%; 
+}
+#meie .row {
+    display: flex;
+} 
+#meie .column {
+    flex: 50%;
+}

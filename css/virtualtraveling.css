@@ -1,0 +1,24 @@
+#reisimine {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://sharoncummings.files.wordpress.com/2015/05/screenshot-2015-04-17-18-47-13.png);
+}
+#reisimine {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    font-size: 2.5em;
+    color: darksalmon;
+}
+#virtualtraveling .profile-img {
+    width: 800px;
+    border-radius: 50%; 
+}
+#tripping .profile-img {
+    width: 600px;
+    border-radius: 35%; 
+}
+#tripping .row {
+    display: flex;
+}
+#tripping .column {
+    flex: 50%;
+}

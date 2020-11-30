@@ -1,0 +1,85 @@
+#hero h1 {
+    font-size: 3em;
+}
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://previews.123rf.com/images/vska/vska1604/vska160400081/55577688-abstract-tech-background-futuristic-interface-vector-illustration-with-many-geometric-shape-.jpg);
+}
+#hero .profile-img {
+    width: 300px;
+    border-radius: 50%; 
+}
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://previews.123rf.com/images/vska/vska1604/vska160400081/55577688-abstract-tech-background-futuristic-interface-vector-illustration-with-many-geometric-shape-.jpg);
+}
+#about .column {
+    border: 5px solid rgb(104, 84, 84);
+    background-color: aliceblue;
+    margin: 10px;
+    float: right;
+    width: 33.33%;
+    align-self: center;
+    margin-left: 125px
+}
+#about .row {
+  content: "";
+  display: table;
+  clear: both;
+}
+#covid-19 {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(https://previews.123rf.com/images/xeniadesign/xeniadesign1802/xeniadesign180200017/94591861-abstract-tech-design-background-engineering-technology-wallpaper-made-with-lines-dots-circles-futuri.jpg);
+}
+#covid-19 .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
+#covid-19 .row {
+    display: flex;
+}
+#covid-19 .column {
+    flex: 50%;
+}
+#quarantine ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    line-height: 1.6;
+    margin: 0 auto; 
+}
+#quarantine .profile-img {
+    position: relative;
+    width: 350px;
+    border-radius: 35%;
+    right: 200px;
+}
+#quarantine .row {
+    display: flex;
+}
+#quarantine .column {
+    flex: 50%;
+}
+#safety ul {
+    list-style-type: circle;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    line-height: 1.6;
+    text-align: left; 
+}
+#safety .profile-img {
+    width: 350px;
+    border-radius: 35%; 
+}
+#safety .row {
+    display: flex;
+}
+#safety .column {
+    flex: 50%;
+}
+#statistic .profile-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border-radius: 35%; 
+}
