@@ -6,9 +6,24 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/meist.css">
         <meta charset="utf-8"/>
+        <script>
+            käivita = function(){
+                setTimeout(ütle_tere, 30000); //käivitab ütle_tere funktsiooni 30000ms ehk poole minuti pärast
+            }
+            ütle_tere = function(){
+                alert("Tere");//kuvab tervituse
+                setTimeout(alert("Meie oleme Anna, Taavi ja Silva"), 15000); //kuvab jätkuteate 15 sekundilise viivitusega
+                var külalise_nimi = window.prompt("Mis on sinu nimi?",""); //küsib kasutaja nime
+                if (!!külalise_nimi) { //kontrollib, kas kasutaja sisestas nime                 
+                    var h3 = document.createElement("h3");//Loob uue h3 elemendi
+                    h3.innerHTML = "Tere, " + külalise_nimi; // lisab loodud elemendile teksti
+                    document.getElementById("infected").appendChild(h3);// Lisab tervituse lehele
+                }
+            }
+        </script>
     </head>
 
-    <body>
+    <body  onload="käivita()">
 
         <header>
             <img src=https://static.wixstatic.com/media/30a623_93e8f317dc124c09be727c4a6721748f~mv2.jpg/v1/fill/w_471,h_367,al_c,q_90/30a623_93e8f317dc124c09be727c4a6721748f~mv2.jpg alt='' class="profile-img">
@@ -30,7 +45,7 @@
                 <div class="row">
                     <div class="column">
                         <h3>Anna Weidebaum</h3>
-                        <img src="https://cdn2.f-cdn.com/contestentries/1212385/22949498/5a44c58688946_thumb900.jpg" alt='' class="profile-img"/>
+                        <img src="jpg/Anna.jpg" alt='' class="profile-img"/>
                     </div>
                     <div class="column">
                         <h3>Taavi Aru</h3>
@@ -38,7 +53,7 @@
                     </div>
                     <div class="column">
                         <h3>Silva Pijon</h3>
-                        <img src="https://cdn2.f-cdn.com/contestentries/1212385/22949498/5a44c58688946_thumb900.jpg" alt='' class="profile-img"/>
+                        <img src="jpg/Silva.jpg" alt='' class="profile-img"/>
                     </div>
                 </div>
             </section>
